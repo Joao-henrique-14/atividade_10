@@ -1,0 +1,11 @@
+var x= document.querySelector('header');
+    x.insertAdjacentHTML('afterbegin','<h1 id="h1id">exemplo</h1>');
+    var y= document.querySelector('main');
+    y.insertAdjacentHTML('afterbegin','<div class="div1class"></div>');
+    y.insertAdjacentHTML('beforeend','<div class="div2class"></div');
+    var z= document.querySelector('.div1class');
+    z.insertAdjacentHTML('afterbegin','<h2>teste1</h2>');
+    z.insertAdjacentHTML('beforeend','<p>olá</p>');
+    var a= document.querySelector('.div2class');
+    a.insertAdjacentHTML('afterbegin','<h2>teste2</h2>');
+    a.insertAdjacentHTML('beforeend','<p>como vai?</p>');
